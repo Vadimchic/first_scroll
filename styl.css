@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+
+
+.slide {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+
+.slide:nth-child(even) {
+    background-color: aqua;
+    color: antiquewhite;
+}
+
+/* nth */
+/* пятый */
+
+.slide.active {
+    opacity: 1;
+
+}
